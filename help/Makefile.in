@@ -14,6 +14,8 @@
 # PARTICULAR PURPOSE.
 
 @SET_MAKE@
+
+#@YELP_HELP_RULES@
 VPATH = @srcdir@
 am__make_dryrun = \
   { \
@@ -799,7 +801,6 @@ uninstall-am:
 	mostlyclean-libtool pdf pdf-am ps ps-am tags tags-recursive \
 	uninstall uninstall-am
 
-@YELP_HELP_RULES@
 
 -include $(top_srcdir)/git.mk
 
